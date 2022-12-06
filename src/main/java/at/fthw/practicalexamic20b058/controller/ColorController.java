@@ -15,6 +15,10 @@ public class ColorController {
         this.colorService = colorService;
     }
 
+    /**
+     * @param msg By adding a specific color, you get the complementary color.
+     * @return complementary color or invalid colorgit
+     */
     @GetMapping("/color/{msg}")
     String specificColor(@PathVariable String msg) {
 

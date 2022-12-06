@@ -13,18 +13,24 @@ public class ColorService {
 
   private final Colors col = new Colors();
 
-
+    /**
+     * Return specific color by.
+     * @return specific color
+     */
   public String getColorRed() {
       return col.getColorRed();
   }
+
 
   public String getColorOrange() {
       return col.getColorOrange();
   }
 
+
   public String getColorYellow() {
       return col.getColorYellow();
   }
+
 
   public String getColorGreen() {
       return col.getColorGreen();
