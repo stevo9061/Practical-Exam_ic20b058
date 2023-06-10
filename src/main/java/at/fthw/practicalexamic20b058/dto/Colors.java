@@ -1,7 +1,6 @@
 package at.fthw.practicalexamic20b058.dto;
 
 public class Colors {
-
     private String colorRed = "Red";
     private String colorOrange = "Orange";
     private String colorYellow = "Yellow";
